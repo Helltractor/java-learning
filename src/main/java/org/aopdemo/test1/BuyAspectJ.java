@@ -40,7 +40,8 @@ public class BuyAspectJ {
     }
 
     @Pointcut("execution(* org.aopdemo.test1.IBuy.buyPrice(double)) && args(price) && bean(girl)")
-    public void gift(double price) {}
+    public void gift(double price) {
+    }
 
 
     /**

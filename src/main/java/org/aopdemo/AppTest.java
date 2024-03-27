@@ -15,7 +15,7 @@ public class AppTest {
     public static void main(String[] args) {
         AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(AppConfig.class);
         // ClassPathXmlApplicationContext context1 = new ClassPathXmlApplicationContext("aopdemo.xml");
-        Boy boy = context.getBean("boy",Boy.class);
+        Boy boy = context.getBean("boy", Boy.class);
         Girl girl = (Girl) context.getBean("girl");
         // boy.buy();
         // girl.buy();
