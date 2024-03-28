@@ -1,4 +1,4 @@
-package org.example;
+package org.reflection;
 
 public class Person {
     private String name;

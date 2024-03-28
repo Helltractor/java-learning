@@ -9,7 +9,7 @@ import org.springframework.context.annotation.EnableAspectJAutoProxy;
  */
 
 @Configuration
-@ComponentScan(basePackageClasses = {org.aopdemo.test1.IBuy.class})
+@ComponentScan(basePackageClasses = {org.aopdemo.test.IBuy.class})
 @EnableAspectJAutoProxy(proxyTargetClass = true)
 public class AppConfig {
 }

@@ -1,4 +1,4 @@
-package org.example;
+package org.reflection;
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Method;
@@ -22,7 +22,7 @@ public class ReflectionDemoApple {
         System.out.println("Apple Price:" + apple.getPrice());
 
         //使用反射调用
-        Class clz = Class.forName("org.example.ReflectionDemoApple");
+        Class clz = Class.forName("org.reflection.ReflectionDemoApple");
         Constructor appleConstructor = clz.getConstructor();
         Object appleObj = appleConstructor.newInstance();
 
