@@ -4,7 +4,8 @@ import org.aopdemo.service.IBuy;
 import org.springframework.stereotype.Component;
 
 /**
- * 实现类，实现接口
+ * 实现类
+ * 实现接口
  */
 
 @Component

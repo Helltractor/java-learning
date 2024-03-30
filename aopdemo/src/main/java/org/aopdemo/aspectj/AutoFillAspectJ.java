@@ -4,6 +4,11 @@ import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.*;
 import org.springframework.stereotype.Component;
 
+/**
+ * 切面类
+ * 修改切点周围信息
+ */
+
 @Aspect
 @Component
 public class AutoFillAspectJ {
