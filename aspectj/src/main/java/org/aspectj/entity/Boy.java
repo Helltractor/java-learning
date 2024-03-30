@@ -1,6 +1,6 @@
-package org.aopdemo.entity;
+package org.aspectj.entity;
 
-import org.aopdemo.service.IBuy;
+import org.aspectj.service.IBuy;
 import org.springframework.stereotype.Component;
 
 /**

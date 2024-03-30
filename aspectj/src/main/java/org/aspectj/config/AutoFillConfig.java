@@ -1,7 +1,7 @@
-package org.aopdemo.config;
+package org.aspectj.config;
 
-import org.aopdemo.AutoFillTest;
-import org.aopdemo.service.IBuy;
+import org.aspectj.AutoFillTest;
+import org.aspectj.service.IBuy;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.EnableAspectJAutoProxy;

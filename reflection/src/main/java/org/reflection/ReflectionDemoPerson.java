@@ -10,7 +10,7 @@ public class ReflectionDemoPerson {
             IllegalAccessException, InstantiationException, NoSuchFieldException, InvocationTargetException {
 
         // 获取 Person 类的 Class 对象
-        Class<?> personClass = Class.forName("org.reflection.Person");
+        Class<?> personClass = Class.forName("org.reflection.entity.Person");
 
         // 获取并打印类名
         System.out.println("类名：" + personClass.getName());

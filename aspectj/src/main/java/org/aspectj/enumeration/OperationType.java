@@ -1,4 +1,4 @@
-package org.aopdemo.enumeration;
+package org.aspectj.enumeration;
 
 /**
  * @Author: helltractor

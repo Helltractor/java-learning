@@ -1,6 +1,6 @@
-package org.aopdemo.annotation;
+package org.aspectj.annotation;
 
-import org.aopdemo.enumeration.OperationType;
+import org.aspectj.enumeration.OperationType;
 
 import java.lang.annotation.ElementType;
 import java.lang.annotation.Retention;

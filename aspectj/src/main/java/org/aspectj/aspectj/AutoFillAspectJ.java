@@ -1,4 +1,4 @@
-package org.aopdemo.aspectj;
+package org.aspectj.aspectj;
 
 import org.aspectj.lang.ProceedingJoinPoint;
 import org.aspectj.lang.annotation.*;
@@ -13,7 +13,7 @@ import org.springframework.stereotype.Component;
 @Component
 public class AutoFillAspectJ {
 
-    @Pointcut("execution(* org.aopdemo.service.IBuy.buy(..))")
+    @Pointcut("execution(* org.aspectj.service.IBuy.buy(..))")
     public void aopPointCut() {
 
     }
@@ -45,7 +45,7 @@ public class AutoFillAspectJ {
         }
     }
 
-    @Pointcut("execution(* org.aopdemo.service.IBuy.buyPrice(double)) && args(price) && bean(girl)")
+    @Pointcut("execution(* org.aspectj.service.IBuy.buyPrice(double)) && args(price) && bean(girl)")
     public void gift(double price) {
     }
 

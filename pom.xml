@@ -17,7 +17,7 @@
 
     <modules>
         <module>reflection</module>
-        <module>aopdemo</module>
+        <module>aspectj</module>
     </modules>
 
     <properties>

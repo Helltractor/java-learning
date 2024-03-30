@@ -1,4 +1,4 @@
-package org.aopdemo.service;
+package org.aspectj.service;
 
 /**
  * 服务类

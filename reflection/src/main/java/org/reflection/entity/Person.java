@@ -1,4 +1,4 @@
-package org.reflection;
+package org.reflection.entity;
 
 public class Person {
     private String name;
