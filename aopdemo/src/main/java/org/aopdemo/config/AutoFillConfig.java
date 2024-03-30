@@ -1,5 +1,7 @@
 package org.aopdemo.config;
 
+import org.aopdemo.AutoFillTest;
+import org.aopdemo.service.IBuy;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.EnableAspectJAutoProxy;
@@ -9,7 +11,7 @@ import org.springframework.context.annotation.EnableAspectJAutoProxy;
  */
 
 @Configuration
-@ComponentScan(basePackageClasses = {org.aopdemo.test.IBuy.class})
+@ComponentScan(basePackageClasses = {IBuy.class, AutoFillTest.class})
 @EnableAspectJAutoProxy(proxyTargetClass = true)
-public class AppConfig {
+public class AutoFillConfig {
 }
