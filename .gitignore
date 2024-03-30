@@ -1,5 +1,6 @@
 **/target/
 **/test/
+.gitignore
 .idea
 *.iml
 *.class
