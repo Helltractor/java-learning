@@ -5,8 +5,8 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <artifactId>spring-boot-starter-parent</artifactId>
         <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
         <version>3.2.0</version>
     </parent>
 
@@ -18,12 +18,14 @@
     <modules>
         <module>reflection</module>
         <module>aspectj</module>
+        <module>redis</module>
     </modules>
 
     <properties>
         <commons.lang>2.6</commons.lang>
         <aspectj>1.9.4</aspectj>
-        <mybatis.spring>2.2.0</mybatis.spring>
+        <mybatis.spring>3.0.0</mybatis.spring>
+        <lombok>1.18.30</lombok>
     </properties>
 
     <dependencyManagement>
@@ -50,6 +52,12 @@
                 <groupId>org.aspectj</groupId>
                 <artifactId>aspectjweaver</artifactId>
                 <version>${aspectj}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.projectlombok</groupId>
+                <artifactId>lombok</artifactId>
+                <version>${lombok}</version>
             </dependency>
         </dependencies>
     </dependencyManagement>
