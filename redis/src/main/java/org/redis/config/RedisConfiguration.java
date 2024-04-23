@@ -13,12 +13,15 @@ import org.springframework.data.redis.serializer.StringRedisSerializer;
  * @Date: 2024/4/7 13:40
  */
 
+/**
+ * Redis配置类
+ */
 @Slf4j
 @Configuration
 public class RedisConfiguration{
 
     /**
-     * 创建RedisConnectionFactory对象
+     * 创建RedisConnectionFactory对象，当无法使用默认的配置时，可以自定义配置
      * @return
      */
     /*
