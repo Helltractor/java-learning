@@ -10,6 +10,7 @@
         <module name="aspectj" />
         <module name="reflection" />
         <module name="redis" />
+        <module name="spring-mybatis" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -25,6 +26,7 @@
       <module name="redis" options="-parameters" />
       <module name="reflection" options="-parameters" />
       <module name="spring-cache" options="-parameters" />
+      <module name="spring-mybatis" options="-parameters" />
     </option>
   </component>
 </project>
