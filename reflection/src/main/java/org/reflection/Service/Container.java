@@ -76,6 +76,7 @@ public class Container {
     public Object createInstance(Class<?> clazz) throws IllegalAccessException, InstantiationException, NoSuchMethodException, InvocationTargetException {
         Constructor<?>[] constructors = clazz.getDeclaredConstructors();
         for (Constructor<?> constructor : constructors) {
+            // If the constructor has @Autowired annotation
             if (constructor.getAnnotation(Autowired.class) != null) {
                 Class<?>[] parameterTypes = constructor.getParameterTypes();
                 Object[] parameters = new Object[parameterTypes.length];
