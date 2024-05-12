@@ -19,6 +19,7 @@
         <module>reflection</module>
         <module>aspectj</module>
         <module>redis</module>
+        <module>stream</module>
     </modules>
 
     <properties>

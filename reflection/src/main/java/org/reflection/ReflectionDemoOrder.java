@@ -1,6 +1,6 @@
 package org.reflection;
 
-import org.reflection.Service.Container;
+import org.reflection.service.Container;
 import org.reflection.annotation.Printable;
 
 import java.lang.reflect.Field;

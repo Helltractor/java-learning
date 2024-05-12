@@ -96,7 +96,7 @@ java.lang.IllegalArgumentException: Invalid value type for attribute 'factoryBea
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:323) ~[spring-boot-3.2.0.jar:3.2.0]
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1342) ~[spring-boot-3.2.0.jar:3.2.0]
 	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1331) ~[spring-boot-3.2.0.jar:3.2.0]
-	at org.springcache.DemoApplication.main(DemoApplication.java:15) ~[classes/:na]
+	at org.springcache.org.stream.DemoApplication.main(org.stream.DemoApplication.java:15) ~[classes/:na]
 ```
 
 ```xml

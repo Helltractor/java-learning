@@ -1,4 +1,4 @@
-package org.reflection.Service;
+package org.reflection.service;
 
 import org.reflection.annotation.Autowired;
 import org.reflection.annotation.Bean;

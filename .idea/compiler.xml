@@ -9,6 +9,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="aspectj" />
         <module name="reflection" />
+        <module name="stream" />
         <module name="redis" />
         <module name="spring-mybatis" />
       </profile>
@@ -27,6 +28,7 @@
       <module name="reflection" options="-parameters" />
       <module name="spring-cache" options="-parameters" />
       <module name="spring-mybatis" options="-parameters" />
+      <module name="stream" options="-parameters" />
     </option>
   </component>
 </project>
