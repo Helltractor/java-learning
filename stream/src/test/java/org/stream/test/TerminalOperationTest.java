@@ -315,7 +315,7 @@ class Collect {
      */
     @Test
     public void toConcurrentMapByCollector(){
-        ConcurrentHashMap<String, String> collect = List.of('L',  'I',  'Y', 'U', 'P').parallelStream().collect(Collector.of(
+        ConcurrentHashMap<String, String> collect = Set.of('L',  'I',  'Y', 'U', 'P').parallelStream().collect(Collector.of(
                 // Supplier
                 () -> {
                     System.out.println("Supplier : new ConcurrentHashMap " + "Thread: " + Thread.currentThread().getName());;
@@ -336,7 +336,7 @@ class Collect {
                 },
                 // Finisher
                 Collector.Characteristics.IDENTITY_FINISH,
-//                Collector.Characteristics.UNORDERED,
+                Collector.Characteristics.UNORDERED,
                 Collector.Characteristics.CONCURRENT
         ));
 
