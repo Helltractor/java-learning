@@ -12,7 +12,7 @@ import java.lang.reflect.Method;
  * @Date: 2024/5/3 17:28
  */
 
-public class ReflectionDemoOrder {
+public class DemoApplication {
     public static void main(String[] args) throws ClassNotFoundException, InvocationTargetException, NoSuchMethodException, InstantiationException, IllegalAccessException, NoSuchFieldException {
 //        Address address = new Address("123 Main Street", "12345");
 //        Customer customer = new Customer("John Doe", "110@120");
