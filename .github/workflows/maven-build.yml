@@ -28,4 +28,5 @@ jobs:
           distribution: 'adopt'
           cache: maven
       - name: Build with Maven
+        # ignore the errors of tests and continue with the build
         run: mvn -B package --file pom.xml -Dmaven.test.failure.ignore=true
