@@ -20,6 +20,7 @@
         <module>aspectj</module>
         <module>redis</module>
         <module>stream</module>
+        <module>thread</module>
     </modules>
 
     <properties>
