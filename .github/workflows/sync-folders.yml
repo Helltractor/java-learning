@@ -1,0 +1,23 @@
+name: Sync to Destination Repo
+
+on:
+  push:
+    branches: [ "main" ]
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Source Repository
+        uses: actions/checkout@v2
+        with:
+          repository: Helltractor/Java-learning # 替换为源仓库的用户名和仓库名
+          path: docs/java
+
+      - name: Sync with Destination Repo
+        uses: EndBug/add-and-commit@v7
+        with:
+          directory: docs/java
+          branch: master
+          repository: Helltractor/Master # 替换为目标仓库的用户名和仓库名
+          github_token: ${{ secrets.GITHUB_TOKEN }}

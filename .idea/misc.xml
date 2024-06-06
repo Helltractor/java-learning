@@ -8,6 +8,7 @@
         <option value="$PROJECT_DIR$/springcache/pom.xml" />
         <option value="$PROJECT_DIR$/mybatisSpring/pom.xml" />
         <option value="$PROJECT_DIR$/spring-mybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot/pom.xml" />
       </list>
     </option>
     <option name="ignoredFiles">

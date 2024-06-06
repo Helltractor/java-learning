@@ -21,6 +21,7 @@
         <module>redis</module>
         <module>stream</module>
         <module>thread</module>
+        <module>spring-cloud</module>
     </modules>
 
     <properties>

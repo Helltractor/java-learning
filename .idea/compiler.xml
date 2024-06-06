@@ -8,9 +8,11 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="aspectj" />
-        <module name="thread" />
+        <module name="spring-cloud" />
         <module name="reflection" />
         <module name="stream" />
+        <module name="spring-boot" />
+        <module name="thread" />
         <module name="redis" />
         <module name="spring-mybatis" />
       </profile>
@@ -27,7 +29,9 @@
       <module name="mybatis-spring" options="-parameters" />
       <module name="redis" options="-parameters" />
       <module name="reflection" options="-parameters" />
+      <module name="spring-boot" options="-parameters" />
       <module name="spring-cache" options="-parameters" />
+      <module name="spring-cloud" options="-parameters" />
       <module name="spring-mybatis" options="-parameters" />
       <module name="stream" options="-parameters" />
       <module name="thread" options="-parameters" />
