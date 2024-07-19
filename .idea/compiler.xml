@@ -10,6 +10,7 @@
         <module name="aspectj" />
         <module name="spring-cloud" />
         <module name="reflection" />
+        <module name="test" />
         <module name="stream" />
         <module name="spring-boot" />
         <module name="thread" />
@@ -25,7 +26,7 @@
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="aspectj" options="-parameters" />
-      <module name="demo" options="" />
+      <module name="java-learning" options="" />
       <module name="mybatis-spring" options="-parameters" />
       <module name="redis" options="-parameters" />
       <module name="reflection" options="-parameters" />
@@ -34,6 +35,7 @@
       <module name="spring-cloud" options="-parameters" />
       <module name="spring-mybatis" options="-parameters" />
       <module name="stream" options="-parameters" />
+      <module name="test" options="-parameters" />
       <module name="thread" options="-parameters" />
     </option>
   </component>
