@@ -7,10 +7,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 @MapperScan(basePackages = "org.springmybatis.mapper", annotationClass = Mapper.class)
-public class SpringMybatisApplication {
+public class DemoApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(SpringMybatisApplication.class, args);
+        SpringApplication.run(DemoApplication.class, args);
     }
 
 }

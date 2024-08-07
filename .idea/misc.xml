@@ -15,6 +15,7 @@
       <set>
         <option value="$PROJECT_DIR$/reflection/spring-cache/pom.xml" />
         <option value="$PROJECT_DIR$/spring-cache/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-cloud/pom.xml" />
       </set>
     </option>
   </component>

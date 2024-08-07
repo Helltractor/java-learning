@@ -12,7 +12,7 @@ import org.springframework.test.context.ContextConfiguration;
  * 测试类
  */
 @SpringBootTest
- @ContextConfiguration(classes = {AutoFillConfig.class})
+@ContextConfiguration(classes = {AutoFillConfig.class})
 public class AutoFillTest {
     @Test
     public void autoFillTest() {

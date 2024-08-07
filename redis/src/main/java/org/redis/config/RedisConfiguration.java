@@ -24,12 +24,10 @@ public class RedisConfiguration{
      * 创建RedisConnectionFactory对象，当无法使用默认的配置时，可以自定义配置
      * @return
      */
-    /*
-    @Bean
-    public RedisConnectionFactory redisConnectionFactory() {
-        return new LettuceConnectionFactory();
-    }
-     */
+//    @Bean
+//    public RedisConnectionFactory redisConnectionFactory() {
+//        return new LettuceConnectionFactory();
+//    }
 
     /**
      * 创建RedisTemplate对象

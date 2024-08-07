@@ -37,6 +37,5 @@ public class DemoApplication {
                 method.invoke(fieldObj);
             }
         }
-
     }
 }

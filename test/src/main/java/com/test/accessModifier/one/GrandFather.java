@@ -11,7 +11,7 @@ public class GrandFather {
         grandFather.print();
         FatherPublic fatherPublic = new FatherPublic();
         System.out.println(fatherPublic.asset);
-        System.out.println(fatherPublic.wifeNum);
+        System.out.println(fatherPublic.wifNum);
         FatherDefault fatherDefault = new FatherDefault();
         System.out.println(fatherDefault.asset);
         System.out.println(fatherDefault.wifeNum);

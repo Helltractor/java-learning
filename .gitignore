@@ -1,7 +1,6 @@
 target/
 docker/
 !**/src/main/**/target/
-!**/src/test/**/target/
 
 ### IntelliJ IDEA ###
 .idea/

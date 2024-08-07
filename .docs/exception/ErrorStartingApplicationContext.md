@@ -106,7 +106,7 @@ java.lang.IllegalArgumentException: Invalid value type for attribute 'factoryBea
     <version>3.2.0</version>
 </parent>
 
-<groupId>com.demo</groupId>
+<groupId>org.demo</groupId>
 <artifactId>demo</artifactId>
 <version>1.0-SNAPSHOT</version>
 <packaging>pom</packaging>
@@ -131,7 +131,7 @@ java.lang.IllegalArgumentException: Invalid value type for attribute 'factoryBea
     <version>2.7.3</version>    
 </parent>
 
-<groupId>com.demo</groupId>
+<groupId>org.demo</groupId>
 <artifactId>demo</artifactId>
 <version>1.0-SNAPSHOT</version>
 <packaging>pom</packaging>

@@ -6,25 +6,27 @@
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-parent</artifactId>
         <version>3.2.5</version>
-        <relativePath/> <!-- lookup parent from repository -->
+        <relativePath/>
     </parent>
+
     <groupId>org.springmybatis</groupId>
     <artifactId>spring-mybatis</artifactId>
-    <version>0.0.1-SNAPSHOT</version>
-    <name>spring-mybatis</name>
-    <description>spring-mybatis</description>
+    <version>0.0.1</version>
+
     <properties>
-        <java.version>21</java.version>
+        <mybatis.version>3.0.3</mybatis.version>
     </properties>
+
     <dependencies>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-web</artifactId>
         </dependency>
+
         <dependency>
             <groupId>org.mybatis.spring.boot</groupId>
             <artifactId>mybatis-spring-boot-starter</artifactId>
-            <version>3.0.3</version>
+            <version>${mybatis.version}</version>
         </dependency>
 
         <dependency>
@@ -32,15 +34,10 @@
             <artifactId>mysql-connector-j</artifactId>
             <scope>runtime</scope>
         </dependency>
+
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-test</artifactId>
-            <scope>test</scope>
-        </dependency>
-        <dependency>
-            <groupId>org.mybatis.spring.boot</groupId>
-            <artifactId>mybatis-spring-boot-starter-test</artifactId>
-            <version>3.0.3</version>
             <scope>test</scope>
         </dependency>
     </dependencies>
@@ -53,5 +50,4 @@
             </plugin>
         </plugins>
     </build>
-
 </project>

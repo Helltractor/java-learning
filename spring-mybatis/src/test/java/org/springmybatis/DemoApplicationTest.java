@@ -11,10 +11,10 @@ import org.springmybatis.mapper.FooMapper;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
-@SpringBootTest(classes = SpringMybatisApplication.class, webEnvironment = WebEnvironment.RANDOM_PORT)
-class SpringMybatisApplicationTests {
+@SpringBootTest(classes = DemoApplication.class, webEnvironment = WebEnvironment.RANDOM_PORT)
+class DemoApplicationTest {
 
-    static final Logger logger = LoggerFactory.getLogger(SpringMybatisApplicationTests.class);
+    static final Logger logger = LoggerFactory.getLogger(DemoApplicationTest.class);
 
     @Autowired
     FooMapper fooMapper;

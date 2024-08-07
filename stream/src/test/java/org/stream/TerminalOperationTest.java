@@ -1,4 +1,4 @@
-package org.stream.test;
+package org.stream;
 
 import org.junit.jupiter.api.Test;
 import org.stream.entity.Person;

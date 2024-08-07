@@ -8,9 +8,9 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="aspectj" />
-        <module name="spring-cloud" />
         <module name="reflection" />
         <module name="test" />
+        <module name="rocketmq" />
         <module name="stream" />
         <module name="spring-boot" />
         <module name="thread" />
@@ -21,6 +21,7 @@
     <bytecodeTargetLevel>
       <module name="mybatis-spring" target="17" />
       <module name="spring-cache" target="1.8" />
+      <module name="spring-cloud" target="17" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -30,6 +31,7 @@
       <module name="mybatis-spring" options="-parameters" />
       <module name="redis" options="-parameters" />
       <module name="reflection" options="-parameters" />
+      <module name="rocketmq" options="-parameters" />
       <module name="spring-boot" options="-parameters" />
       <module name="spring-cache" options="-parameters" />
       <module name="spring-cloud" options="-parameters" />

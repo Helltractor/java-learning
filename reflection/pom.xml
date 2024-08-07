@@ -5,9 +5,9 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>com.demo</groupId>
+        <groupId>com.helltractor.demo</groupId>
         <artifactId>java-learning</artifactId>
-        <version>1.0-SNAPSHOT</version>
+        <version>0.0.1</version>
     </parent>
 
     <groupId>org.reflection</groupId>
@@ -18,6 +18,7 @@
         <maven.compiler.target>21</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
+
     <dependencies>
         <dependency>
             <groupId>junit</groupId>
@@ -25,5 +26,4 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
-
 </project>
